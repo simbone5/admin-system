@@ -1,0 +1,308 @@
+/*
+	really light e.g. button background = 	#9999CC
+	lighter e.g. menu, a links =			#6699CC
+	light e.g. main text = 					#006699
+	dark e.g. bold = 						#333366
+	
+	red e.g. alert = 						#CC0000
+	
+*/
+
+html *{
+	font-family: verdana, sans-serif;
+	font-size: 11px;
+	color: #006699;
+}
+ul, ul li, form, fieldset{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	line-height: 12px;
+	border: 0px;
+}
+b{
+	color: #333366;
+}
+a{
+	color: #6699CC;
+}
+	a:hover{
+		text-decoration:none;
+	}
+	a img{
+		border: none;
+	}
+p{
+	margin: 0px 0px 5px 0px;
+	line-height: 20px;
+}
+.alert{
+	color: #CC0000;
+}
+.clear{
+	height: 0px;
+	font-size: 0px;
+	clear: both;
+	float: none;
+}
+
+div.pageWrapper{
+	width: 900px;
+	margin: 0px auto;
+}
+
+
+
+/*//////////////////////////////// HEADER ////////////////////////////////*/	
+div.header{
+	border-bottom: solid 1px #333366;
+	height: 20px;
+}
+	div.header div{
+		float: left;
+		width: 60px;
+		text-align: right;
+		font-weight: bold;
+		color: #333366;
+		font-size: 15px;
+	}
+	div.header .logout{
+		display: block;
+		float: left;
+		width: 50px;
+		text-decoration: none;
+		margin: 3px 0px 0px 0px;
+	}
+	div.header ul{
+		height: 17px;
+		padding: 3px 0px 0px 0px;
+		list-style-type: none;
+		float: left;
+		width: 789px;
+	}
+		div.header ul li{
+			display: block;
+			float: left;
+			height: 17px;
+			padding: 0px 10px 0px 10px;
+		}
+			div.header ul li.selected{
+				background:#6699CC;
+			}
+				div.header ul li.selected a{
+					color:#FFFFFF;
+				}
+	div.header a{
+		font-weight: bold;
+		color: #6699CC;
+		text-decoration: none;
+	}
+	div.header a:hover{
+		color: #333366;
+	}
+			
+div.breadcrumb{
+	margin: 5px 0px 10px 0px;
+	color: #333366;
+}			
+	div.breadcrumb span.last{
+		font-weight:bold;
+	}
+
+
+
+/*//////////////////////////////// GENERIC FORM ////////////////////////////////*/	
+form.generic{
+	width: 450px;
+
+}
+	form.generic fieldset{
+		padding: 0px;
+		margin: 0px;
+		border: 0px solid red;
+	}
+		form.generic fieldset legend{
+			font-weight: bold;
+			margin: 0px;
+			padding: 0px 0px 10px 0px;
+			color: #333366;
+		}
+		label{
+			display: block;
+			width: 180px;
+			float: left;
+			height: 17px;
+			margin: 0px 0px 10px 0px;
+			padding: 0px 0px 1px 0px;
+		}
+			label.textarea{
+				margin-top: 5px;
+				padding-bottom: 81px;
+			}
+			label.tinymce{
+				margin-top: 5px;
+				padding-bottom: 110px;
+			}
+			label.superAdmin{
+				background-color: #EEEEFF;
+			}
+		form.generic fieldset input.text{
+			display: block;
+			width: 200px;
+			height: 13px;
+			float: left;
+			margin: 2px 25px 10px 0px;
+			border: 1px solid #333366;
+		}
+		form.generic fieldset input.fakeInput{
+			display: block;
+			width: 200px;
+			height: 13px;
+			float: left;
+			margin: 5px 25px 10px 0px;
+			border-bottom: 1px solid #333366;
+		}
+		form.generic fieldset input.file{
+			display: block;
+			width: 200px;
+			height: 17px;
+			float: left;
+			margin: 2px 25px 10px 0px;
+			border: 1px solid #333366;
+		}
+		form.generic fieldset input.checkbox{
+			margin: 3px 180px 6px 0px;
+			padding: 0px 0px 0px 0px;
+			height: 20px;
+			width: 20px;
+		}
+		form.generic fieldset textarea{
+			display: block;
+			width: 200px;
+			height: 100px;
+			float: left;
+			margin: 2px 25px 10px 0px;
+			padding: 0px 0px 0px 0px;
+			border: 1px solid #333366;
+		}
+		form.generic fieldset span.mceEditor{
+			display: block;
+			width: 200px;
+			float: left;
+			margin: 2px 25px 10px 0px;
+			padding: 0px 0px 0px 0px;
+			border: 1px solid #FFFFFF;
+		}
+		form.generic fieldset select{
+			display: block;
+			width: 200px;
+			height: 19px;
+			float: left;
+			margin: 0px 25px 10px 0px;
+			border: 1px solid #333366;
+		}
+		form.generic fieldset span.dateSelect{
+			display: block;
+			width: 225px;
+			height: 19px;
+			float: left;
+			margin: 0px 0px 10px 0px;
+		}
+			form.generic fieldset span.dateSelect select{
+				width: 53px;
+				margin-right: 0px;
+				float: none;
+				display: inline;
+			}
+				form.generic fieldset span.dateSelect select.year{
+					margin-right:5px;
+				}
+		input.submit, input.button{
+			border: solid 2px #333366;
+			background: #9999CC;
+			color: #FFFFFF;
+			font-size: 11px;
+			height: 19px;
+			display: block;
+			float: left;
+			margin: 0px 120px 10px 0px;
+			width: 100px;
+		}
+		form.generic fieldset input.button{
+		}
+		label, form.generic fieldset input.text{
+			border-bottom: 1px solid #333366;
+		}
+		form.generic .disabled{
+			background: #CCCCCC !important;
+			border: solid 2px #333333 !important;
+		}
+
+/*//////////////////////////////// GENERIC TABLE ////////////////////////////////*/	
+table.generic{
+	padding: 0px;
+	margin: 0px;
+	border-spacing: 0px;
+	border-collapse:collapse;
+	width: 100%;
+}
+	table.generic tr{
+		padding: 0px;
+		margin: 0px;
+	}
+		table.generic tr th, table.generic tr td{
+			padding: 2px 5px 5px 5px;
+			margin: 0px 2px 0px 0px;
+		}
+		table.generic tr th{
+			text-align:left;
+		}
+		table.generic tr td{
+		}
+		table.generic tr td.last{
+		/*	border-right: solid 1px #000000;*/
+		}
+			table.generic tr.row0 td{
+				background-color: #EEEEFF;
+			}
+				table.generic tr.row0 td a{
+				}
+
+/*//////////////////////////////// PAGE LAYOUTS ////////////////////////////////*/		
+div.pageWrapper .fullWidth{
+	width: 900px;
+	margin: 0px 0px 10px 0px;
+	clear: left;
+}
+
+div.pageWrapper .halfWidth{
+	width: 440px;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+	div.pageWrapper .halfWidth.left{
+		margin-left: 0px;
+		margin-right: 10px;
+		clear:left;
+	}
+	div.pageWrapper .halfWidth.right{
+		margin-right: 0px;
+		margin-left: 10px;
+	}	
+
+ul.bulleted{
+	margin-left: 15px;
+}
+	ul.bulleted li{
+		list-style-type: disc;
+		margin: 0px 0px 5px 0px;
+	}
+		
+		
+		
+		
+		
+		
+		
+		

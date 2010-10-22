@@ -1,0 +1,43 @@
+form.images{
+	margin: 0px;
+	padding: 0px;
+}
+	form.images fieldset{
+		border: none;
+		margin: 0px;
+		padding: 0px;
+	}
+	form.images fieldset input.button{
+		margin: 0px 0px 10px 0px;
+		float: none;
+		display: inline;
+	}
+		form.images fieldset table{
+			border-collapse: collapse;
+			width: 800px;
+			margin: 0px 0px 0px 50px;
+		}
+			form.images fieldset table tr{
+			
+			}	
+				form.images fieldset table tr td{
+					padding: 5px;
+					margin: 0px;
+					text-align:center;
+					vertical-align: top;
+					width: 150px;
+					border-bottom: 1px solid #333366;
+				}	
+					form.images fieldset table tr td div{
+						height: 150px;
+						width: 150px;
+						padding: 0px 0px 5px 0px;
+					}
+					form.images fieldset table tr td label{
+						height: auto;
+						width: auto;
+						margin: 0px;
+						float: none;
+						display: inline;
+						border: none;
+					}

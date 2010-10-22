@@ -1,0 +1,12 @@
+div.help{
+	
+}
+	div.help p.center{
+		text-align:center;
+	}
+
+	div.help input.submit{
+		display: block;
+		margin: 20px auto;
+		float: none;
+	}

@@ -1,0 +1,15 @@
+body, html{
+	height: 90% !important;
+}
+
+
+
+iframe#previewWrapper{
+	border: solid 1px #000000;
+	display: block;
+	width: 85%;
+	height: 120% !important;
+	/* iframe needs to float next to options
+	margin: 0px auto;
+	clear:both;*/
+}

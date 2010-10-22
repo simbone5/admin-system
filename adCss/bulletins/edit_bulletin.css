@@ -1,0 +1,25 @@
+label.dateList{
+	margin-top: 5px;
+	padding-bottom: 81px;
+}
+div.dateListWrapper{
+	display: block;
+	width: 225px;
+	height: 102px;
+	float: left;
+	margin: 2px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+	position:relative;
+}
+	div.dateListWrapper div.dateList{
+		display: block;
+		width: 183px;
+		height: 100px;
+		border: 1px solid #333366;
+		overflow:auto;
+	}
+div.dateList a#date_link{
+	position:absolute;
+	top: 3px;
+	right: 3px;
+}

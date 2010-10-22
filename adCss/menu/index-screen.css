@@ -1,0 +1,16 @@
+a.selected{
+	background: url('../../adImages/dot.png') center right no-repeat;
+	padding-right: 10px;
+}
+
+.treeWrapper{
+	max-height: 300px;
+	overflow: auto;
+	clear: both;
+}
+
+div.extraOptions{
+	border-top: 1px solid #336699;
+	margin: 15px 0px 0px 0px;
+	padding:15px 0px 0px 0px;
+}

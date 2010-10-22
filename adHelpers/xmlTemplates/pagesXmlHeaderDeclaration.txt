@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE pages [
+<!ELEMENT pages (item)*>
+<!ELEMENT item (item)*>
+<!ATTLIST item pagName CDATA "-1">
+<!ATTLIST item pagID ID #REQUIRED>
+]>

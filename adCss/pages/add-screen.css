@@ -1,0 +1,36 @@
+a.selected{
+	background: url('../../adImages/dot.png') center right no-repeat;
+	padding-right: 10px;
+}
+
+.treeWrapper{
+	max-height: 300px;
+	overflow: auto;
+}
+
+div.previewOptions{
+	margin: 0px 10px;
+	float:left;
+	/*width:130px;*/
+	width: 10%;
+}
+	.previewOptions p{
+	}
+	.previewOptions form.generic{
+		width: 100px ;
+		margin-top: 50px;
+	}
+	.previewOptions input{
+		float:none;
+		margin-right: 0px;
+	}
+	.previewOptions label{
+		font-weight:bold;
+		border: 0px;
+		color: #333366;
+		margin: 0px;
+	}
+	.previewOptions form.generic fieldset select{
+		float:none;
+		width:120px;
+	}

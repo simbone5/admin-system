@@ -1,0 +1,101 @@
+div.editOptions{
+	margin: 0px 10px;
+	float:left;
+	/*width:130px;*/
+	width: 10%;
+}
+	.editOptions form.generic{
+		width: 100px ;
+	}
+	div.editOptions input{
+		float:none;
+		display:block;
+		margin-right: 0px;
+	}
+	.editOptions ul{
+	}
+		.editOptions ul li{
+			margin: 5px 0px 0px 0px;
+		}
+	
+
+div.buttonWrapper{
+	margin-right: 20px;
+}
+	div.buttonWrapper input{
+		margin-right: 0px;
+	}
+
+div.popupWrapper form.generic fieldset input{
+	margin-left: 0px;
+}
+div.popupWrapper div#galleryListWrapper img.loading{
+	width: 128px;
+	margin: 30px auto;
+	display: block;
+}
+
+div#selectEditImage.popupWrapper{
+	width: 800px;
+	margin-left: -400px;
+}
+	div#selectEditImage.popupWrapper table{
+		border-collapse: collapse;
+		width: 800px;
+		margin: 0px 0px 20px 0px;
+	}
+		div#selectEditImage.popupWrapper table tr{
+		
+		}	
+			div#selectEditImage.popupWrapper table tr td{
+				padding: 5px;
+				margin: 0px;
+				text-align:center;
+				vertical-align: top;
+				width: 150px;
+				border-bottom: 1px solid #333366;
+			}	
+				div#selectEditImage.popupWrapper table tr td div{
+					height: 150px;
+					width: 150px;
+					padding: 0px 0px 5px 0px;
+				}
+				div#selectEditImage.popupWrapper table tr td label{
+					height: auto;
+					width: auto;
+					margin: 0px;
+					float: none;
+					display: inline;
+					border: none;
+				}
+
+
+/*CSS FOR editOptions above the iframe
+div.editOptions{
+	margin: 0px 10px;
+}
+
+.editOptions form.generic{
+	float: left;
+	width: 300px ;
+}
+	form.generic fieldset input{
+		float: left;
+		margin-right: 0px;
+	}
+div.buttonWrapper{
+	float: left;
+	margin-right: 20px;
+}
+	div.buttonWrapper input{
+		margin-right: 0px;
+	}
+
+div.popupWrapper form.generic fieldset input.first{
+	margin-left: 50px;
+	margin-right: 80px;
+}
+div.popupWrapper form.generic fieldset input{
+	margin-left: 0px;
+}
+*/

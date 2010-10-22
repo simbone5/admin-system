@@ -1,0 +1,11 @@
+#These override default server settings. The site will handle errors gracefully if these do not work
+
+#	These cannot be set using ini_set
+#php_value upload_max_filesize	"52428800"
+#php_value post_max_size			"52428800"
+
+
+
+#	Attempt to set memory_limit is done in various places by ini_set
+#php_value memory_limit			"134217728"
+#php_value max_execution_time	"300"

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE menu [
+<!ELEMENT menu (item)*>
+<!ELEMENT item (item)*>
+<!ATTLIST item title CDATA #REQUIRED>
+<!ATTLIST item url CDATA #REQUIRED>
+<!ATTLIST item menuID ID #REQUIRED>
+<!ATTLIST item type CDATA #REQUIRED>
+<!ATTLIST item value CDATA #REQUIRED>
+]>

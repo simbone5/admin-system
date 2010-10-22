@@ -1,0 +1,61 @@
+ul.tree{
+	margin: 10px 0px 20px 0px;
+}
+	ul.tree li{
+		margin: 0px 0px 8px 0px;
+		clear: both;
+	}
+		ul.tree li ul{
+			margin: 0px 0px 0px 0px;
+			padding: 1px 0px 0px 0px;
+			clear: both;
+		}
+			ul.tree li ul li{
+				margin: 0px 0px 0px 0px;
+				padding: 0px 0px 5px 15px;
+				background: url('../adImages/tree-bg.png') no-repeat 0px 0px;
+			}
+		ul.tree li span{
+			padding-right: 10px;
+		}
+		ul.tree li a.img{
+			height: 10px;
+			width: 10px;
+			margin: 4px 1px 0px 1px;
+		}
+		ul.tree li a.first{
+		}
+
+/*	
+
+OLD STYLES THAT FIXED THE WIDTH OF THE PAGE NAME LABEL. THIS CAUSED ISSUES WITH LONG PAGE NAMES	
+ul.tree{
+	margin: 10px 0px 20px 0px;
+}
+	ul.tree li{
+		margin: 0px 0px 8px 0px;
+		clear: both;
+	}
+		ul.tree li ul{
+			margin: 5px 0px 8px 15px;
+			clear: both;
+		}
+			ul.tree li ul li{
+				margin: 0px 0px 5px 0px;
+			}
+		ul.tree li span{
+			display: block;
+			float: left;
+			width: 100px;
+		}
+		ul.tree li a.img{
+			display: block;
+			float: left;
+			height: 10px;
+			width: 10px;
+			margin: 4px 3px 0px 3px;
+		}
+		ul.tree li a.first{
+			margin-left: 50px;
+		}
+*/

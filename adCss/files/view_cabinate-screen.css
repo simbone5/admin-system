@@ -1,0 +1,14 @@
+form.files{
+	margin: 0px;
+	padding: 0px;
+}
+	form.files fieldset{
+		border: none;
+		margin: 0px;
+		padding: 0px;
+	}
+	form.files fieldset input.button{
+		margin: 0px 0px 10px 0px;
+		float: none;
+		display: inline;
+	}
