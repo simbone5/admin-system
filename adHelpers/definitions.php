@@ -2,7 +2,7 @@
 	
 	$GLOBALS['ADMIN_LOGGED_IN'] = FALSE;
 	
-	define("YOURSITE_VERSION", 1.14);
+	define("YOURSITE_VERSION", 1.15);
 	
 	if(!defined("DB_NAME"))
 		define("DB_NAME", "");
