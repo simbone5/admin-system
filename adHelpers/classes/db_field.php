@@ -13,6 +13,7 @@ define("FIELD_TYPE_MULTILINE", "multiline");
 define("FIELD_TYPE_SINGLE", "single");
 define("FIELD_TYPE_HTML", "html");
 define("FIELD_TYPE_IMAGE", "image");
+define("FIELD_TYPE_CABINATE", "cabinate");
 
 ///////////////////////////////////
 // This class is a singleton. It is used to control all fields' settings,
